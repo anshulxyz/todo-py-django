@@ -1,0 +1,17 @@
+name: Pytest
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Poetry Run Pytest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+      - run: |
+          poetry install
+          touch .env
+          make test
