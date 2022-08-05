@@ -6,7 +6,7 @@ authors = ["Anshul Chauhan <anshulchauhan@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.0.6"
+Django = "^4.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
