@@ -20,7 +20,7 @@ django-stubs = "^1.12.0"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "--nomigrations --cov=. --cov-report=html"
+addopts = "--nomigrations --cov=. --cov-report=xml --cov-report=term --cov-report=html"
 
 [tool.coverage.run]
 omit = [
