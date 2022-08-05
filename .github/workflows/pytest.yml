@@ -15,3 +15,8 @@ jobs:
           poetry install
           touch .env
           make test
+      - name: upload code coverage
+      - run: |
+          curl -Os https://uploader.codecov.io/latest/linux/codecov
+          chmod +x codecov
+          ./codecov
