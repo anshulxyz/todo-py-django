@@ -1,4 +1,6 @@
-# todo-py-django
+# todo-py-django (template)
+
+[![codecov](https://codecov.io/gh/anshulxyz/todo-py-django/branch/main/graph/badge.svg?token=RMQ7VGKAGH)](https://codecov.io/gh/anshulxyz/todo-py-django)
 
 ## Requirements
 
