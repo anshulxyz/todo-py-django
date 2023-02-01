@@ -11,7 +11,7 @@ Django = "^4.1"
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"
 mypy = "^0.971"
-pytest = "^7.1.2"
+pytest = "^7.2.1"
 pytest-django = "^4.5.2"
 pdbpp = "^0.10.3"
 pytest-cov = "^3.0.0"
